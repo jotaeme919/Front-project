@@ -9,6 +9,8 @@ import Safra from './components/cadastros/safra';
 import TipoInformacao from './components/cadastros/tipoInformacao';
 import Unidade from './components/cadastros/unidade';
 import UnidadeMedida from './components/cadastros/unidadeMedida';
+import Funcionarios from './components/cadastros/funcionarios';
+
 import './App.css';
 
 function App() {
@@ -48,6 +50,8 @@ function App() {
           {tela === 'tipo-informacao' && <TipoInformacao />}
           {tela === 'unidade' && <Unidade />}
           {tela === 'unidade-medida' && <UnidadeMedida />}
+          {tela === 'funcionarios' && <Funcionarios />}
+
           
         </main>
       </div>
