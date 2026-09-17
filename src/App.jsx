@@ -10,6 +10,8 @@ import TipoInformacao from './components/cadastros/tipoInformacao';
 import Unidade from './components/cadastros/unidade';
 import UnidadeMedida from './components/cadastros/unidadeMedida';
 import Funcionarios from './components/cadastros/funcionarios';
+import Usuarios from './components/cadastros/usuarios'
+import Login from './components/login'
 
 import './App.css';
 
@@ -51,6 +53,8 @@ function App() {
           {tela === 'unidade' && <Unidade />}
           {tela === 'unidade-medida' && <UnidadeMedida />}
           {tela === 'funcionarios' && <Funcionarios />}
+          {tela === 'usuarios' && <Usuarios />}
+          {tela === 'login' && <Login setTela={setTela} />}
 
           
         </main>

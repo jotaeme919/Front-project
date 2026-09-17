@@ -81,6 +81,17 @@ function MenuLateral({ aberto, setTela }) {
             >
               Funcionários
             </button>
+
+            <button className="btn btn-sm btn-dark text-start"
+                onClick={() => setTela('usuarios')}
+           >
+              Usuários
+            </button> 
+            <button className="btn btn-outline-info text-start"
+                onClick={() => setTela('login')}
+       >
+              Login
+            </button>
           </div>
         )}
       </div>
